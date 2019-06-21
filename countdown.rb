@@ -15,7 +15,7 @@ def countdown_with_sleep(yeld)
    yeld = 5
   until yeld == 0
   puts "#{yeld} SECOND(S)!"
-  sleep(1)
+  sleep(10)
   break if yeld == 0
   yeld -= 1
 end
