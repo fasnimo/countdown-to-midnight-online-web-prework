@@ -1,6 +1,6 @@
 
 def countdown(number)
-   
+
   until number == 0
   puts "#{number} SECOND(S)!"
   # break if number == 0
@@ -20,4 +20,3 @@ def countdown_with_sleep(yeld)
   yeld -= 1
 end
 end
-
